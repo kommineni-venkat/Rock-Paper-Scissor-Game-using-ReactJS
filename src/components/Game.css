@@ -1,0 +1,55 @@
+/* Game.css */
+ 
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+ 
+body {
+  background-color: #333;
+  color: #fff;
+  background-image: url(https://www.shutterstock.com/shutterstock/photos/1633786861/display_1500/stock-vector-colorful-rock-paper-scissors-hand-game-vector-background-pattern-1633786861.jpg);
+  
+}
+ 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+ 
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #2ac7e3;
+  text-transform: uppercase;
+}
+ 
+button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: rgb(28, 26, 27);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+   
+button:hover {
+    background-color: #1dcfe3;
+}
+   
+.content {
+    color: #d53a3a; /* Text color */
+    font-family: Arial, sans-serif; /* Font family */
+    font-size: 18px; /* Font size */
+    font-weight: bold; /* Font weight */
+    text-align: center; /* Text alignment */
+    text-shadow: 1px 1px 2px #000; /* Text shadow */
+    letter-spacing: 1px; /* Letter spacing */
+}
