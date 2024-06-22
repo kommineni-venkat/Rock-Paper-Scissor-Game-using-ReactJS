@@ -1,4 +1,4 @@
-/* Game.css */
+
  
 html,
 body {
@@ -45,11 +45,11 @@ button:hover {
 }
    
 .content {
-    color: #d53a3a; /* Text color */
-    font-family: Arial, sans-serif; /* Font family */
-    font-size: 18px; /* Font size */
-    font-weight: bold; /* Font weight */
-    text-align: center; /* Text alignment */
-    text-shadow: 1px 1px 2px #000; /* Text shadow */
-    letter-spacing: 1px; /* Letter spacing */
+    color: #d53a3a; 
+    font-family: Arial, sans-serif; 
+    font-size: 18px; 
+    font-weight: bold; 
+    text-align: center; 
+    text-shadow: 1px 1px 2px #000; 
+    letter-spacing: 1px; 
 }
